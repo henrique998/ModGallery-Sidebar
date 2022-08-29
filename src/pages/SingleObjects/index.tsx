@@ -1,9 +1,9 @@
 import { HomeContainer } from './styles'
 
-export function Home() {
+export function SingleObjects() {
   return (
     <HomeContainer>
-      <h1>Weekly top</h1>
+      <h1>Single Objects</h1>
     </HomeContainer>
   )
 }

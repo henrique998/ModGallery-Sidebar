@@ -1,9 +1,9 @@
 import { HomeContainer } from './styles'
 
-export function Home() {
+export function Favourites() {
   return (
     <HomeContainer>
-      <h1>Weekly top</h1>
+      <h1>Favourites</h1>
     </HomeContainer>
   )
 }

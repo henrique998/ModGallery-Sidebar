@@ -9,16 +9,15 @@ export const GlobalStyle = createGlobalStyle`
 
     :focus {
         outline: 0;
-        box-shadow: 0 0 0 2px ${(props) => props.theme.white};
     }
 
     body {
-        background-color: ${(props) => props.theme['base-background']};
+        background-color: #F5F5F5;
         -webkit-font-smoothing: antialiased;
     }
 
     body, input, textarea, button {
-        /* font-family: 'Nunito', sans-serif; */
+        font-family: 'Josefin Sans', sans-serif;
         font-weight: 400;
         font-size: 1rem;
     }
@@ -35,5 +34,9 @@ export const GlobalStyle = createGlobalStyle`
         cursor: pointer;
         background: transparent;
         border: 0;
+    }
+
+    .mt {
+        margin-top: 1.875rem;
     }
 `

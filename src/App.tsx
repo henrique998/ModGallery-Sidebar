@@ -1,13 +1,16 @@
+import { ThemeContextProvider } from './contexts/ThemeContext'
 import { Providers } from './providers'
-import { Routes } from './Router'
+import { Router } from './Router'
 import { GlobalStyle } from './styles/global'
 
 export function App() {
   return (
-    <Providers>
-      <Routes />
+    <ThemeContextProvider>
+      <Providers>
+        <Router />
 
-      <GlobalStyle />
-    </Providers>
+        <GlobalStyle />
+      </Providers>
+    </ThemeContextProvider>
   )
 }
